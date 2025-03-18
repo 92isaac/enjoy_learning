@@ -152,7 +152,7 @@ function Home() {
 
         <TeachersSection />
 
-        {/* Contact Form */}
+        {/* Contact Form
         <section id="contact" className="py-20 px-6 bg-gray-100">
           <h2 className="text-4xl font-bold text-center">Contact Us</h2>
           <div className="max-w-4xl mx-auto mt-8">
@@ -183,7 +183,7 @@ function Home() {
               </button>
             </form>
           </div>
-        </section>
+        </section> */}
 
         <Footer />
       </main>

@@ -78,7 +78,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#2b186b] text-white shadow-md z-50">
-      <div className=" mx-auto flex justify-between items-center p-4">
+      <div className=" mx-auto flex justify-between items-center px-4">
         {/* <h1 className="text-2xl font-bold">Enjoy Learning Hub</h1> */}
         <Image src={logo} alt="logo" width={100} height={50} className="" />
         <div className="hidden md:flex space-x-8">

@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, Facebook, Instagram } from "lucide-react";
+import Link from "next/link";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -52,7 +53,7 @@ const ContactForm = () => {
     <div className="grid md:grid-cols-2 items-center gap-10 py-10 px-6 md:px-12 lg:px-24">
       <div>
         <h2 className="text-3xl font-bold">Feel Free To Contact And Reach Us!</h2>
-        <p className="text-gray-600 mt-4 mb-8">Per sed, mattis. Integer viverra euismod maecenas...</p>
+        {/* <p className="text-gray-600 mt-4 mb-8">Per sed, mattis. Integer viverra euismod maecenas...</p> */}
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
             <div className="bg-indigo-900 text-white p-3 rounded-full">
@@ -60,16 +61,25 @@ const ContactForm = () => {
             </div>
             <div>
               <p className="font-bold">Phone Number :</p>
-              <p>Head-Office: (+011) 948-5481</p>
+              <Link href={"tel:+2349097253747"}>+234 - 9097253747</Link>
             </div>
           </div>
           <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
             <div className="bg-indigo-900 text-white p-3 rounded-full">
-              <MapPin />
+              <Facebook />
             </div>
             <div>
-              <p className="font-bold">Location Address :</p>
-              <p>34th Bridge Road, San Francisco</p>
+              <p className="font-bold">Facebook :</p>
+              <p>Enjoy Learning Online</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
+            <div className="bg-indigo-900 text-white p-3 rounded-full">
+              <Instagram />
+            </div>
+            <div>
+              <p className="font-bold">Instagram :</p>
+              <p>Enjoy_LearningOnline</p>
             </div>
           </div>
           <div className="flex items-center gap-4 bg-white shadow-md p-4 rounded-lg">
@@ -78,7 +88,7 @@ const ContactForm = () => {
             </div>
             <div>
               <p className="font-bold">Email Address :</p>
-              <p>educationsector@gmail.com</p>
+              <Link href={'mailto:enjoylearningonline@gmail.com'}>educationsector@gmail.com</Link>
             </div>
           </div>
         </div>

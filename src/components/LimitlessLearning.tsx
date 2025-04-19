@@ -18,23 +18,22 @@ const LimitlessLearning: React.FC = () => {
             Limitless Learning, <br /> Limitless Possibilities !
           </h1>
           <p className="text-sm md:text-base text-gray-300 mb-5 max-w-lg">
-            Per sed, mattis. Integer viverra euismod maecenas incidunt, phasellus
-            consequat aliquam nihil temporibus in assumens.
+          Affordable and cost-effective with opportunities to learn new skills and expand knowledge in various fields.
           </p>
 
           {/* Features */}
           <ul className="space-y-3 mb-6">
             <li className="flex items-center gap-2 text-sm">
               <Check className="text-pink-500 w-5 h-5" />
-              <span>Aliqua est exercitationem quod sunt ipsum dolor.</span>
+              <span>Increased accessibility and flexibility in learning.</span>
             </li>
             <li className="flex items-center gap-2 text-sm">
               <Check className="text-pink-500 w-5 h-5" />
-              <span>Expedita fugiat earum, voluptatem init sec smithquas.</span>
+              <span>Improved academic performance and understanding of subjects.</span>
             </li>
             <li className="flex items-center gap-2 text-sm">
               <Check className="text-pink-500 w-5 h-5" />
-              <span>Nam porro cumque justo quas jingle swatto sec.</span>
+              <span>A chance to connect with a community of learners and teachers for support and guidance.</span>
             </li>
           </ul>
 

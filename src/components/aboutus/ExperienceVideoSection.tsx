@@ -21,7 +21,7 @@ const ExperienceVideoSection: React.FC = () => {
               <Trophy className="w-5 h-5 text-pink-500" />
             </div>
             <span className="text-lg font-bold leading-tight">
-              25+ YEARS OF <br /> EXPERIENCE
+              10+ YEARS OF <br /> EXPERIENCE
             </span>
           </div>
         </div>
@@ -37,10 +37,10 @@ const ExperienceVideoSection: React.FC = () => {
             <span className="absolute inset-0 rounded-full border-2 border-pink-500 opacity-30 animate-ping group-hover:opacity-50"></span>
           </div>
           <h4 className="text-lg font-bold text-[#111] mb-2">Intro Video</h4>
-          <p className="text-gray-500 text-sm">
+          {/* <p className="text-gray-500 text-sm">
             Accusantium nunc labore, voluptas, justo, netus diam eros varius
             mattis maxime ratione aliquet sollicitudin.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

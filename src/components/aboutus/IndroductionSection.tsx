@@ -11,23 +11,17 @@ const IntroductionSection: React.FC = () => {
 
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-          Introduction About Our Institute
+          Introduction About Us
         </h2>
 
         {/* Description */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700 mb-12 text-sm md:text-base">
           <p>
-            Maiores montes? Egestas imperdiet voluptates dolor volutpat magnis
-            fugit laboris ullamcorper nam? Nostrum atque fames tempore
-            excepteur tincidunt? Volutpat rerum laboris potenti, varius dui.
-            Eleifend quaerat tempora repudiandae quo, adipisicing mollit nisl,
-            tristique, tenetur exi.
+          Enjoy Learning Online is an online tutoring school that delivers the best learning experience by empowering our learners and teachers to succeed. We are committed to providing high-quality, personalized tutoring services to students of all ages, empowering them to reach their full potential and achieve academic success.
           </p>
           <p>
-            Diamlorem dapibus congue nostrud, purus molestiae, explicabo error
-            quia exercitationem, veniam aperiam, odit anim pariatur, per,
-            cubilia voluptas porttitor iusto ducimus cubilia! Fames cumque
-            pulvinar morbi nobis condimentum provident perferendis.
+        Our mission is to provide high-quality, personalized tutoring services to students of all ages, empowering them to reach their full potential and achieve academic success.
+        To create a dynamic learning environment that fosters curiosity, creativity, and critical thinking skills, while also providing the necessary support and resources for students to excel in their studies.
           </p>
         </div>
 

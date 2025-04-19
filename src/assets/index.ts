@@ -9,6 +9,7 @@ import emma2 from './emmanuel-ikwuegbu-MSX3O-Sqa8U-unsplash.jpg'
 import emma3 from './emmanuel-ikwuegbu-h5xEHzfepNk-unsplash.jpg'
 import ben from './ben-white-83tkHLPgg2Q-unsplash.jpg'
 import topshere from './topsphere-media-5uhOqA194JQ-unsplash.jpg'
+import logo from './logo-removebg-preview.png'
 
 
 export {
@@ -23,6 +24,7 @@ export {
   emma3,
   ben,
   topshere,
+  logo
  
 
 }

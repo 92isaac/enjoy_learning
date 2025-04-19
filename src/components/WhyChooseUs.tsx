@@ -48,11 +48,10 @@ const WhyChooseUs: React.FC = () => {
               <GraduationCap className="text-pink-500 w-8 h-8" />
               <div>
                 <h4 className="text-md font-bold text-[#2b186b]">
-                  Certified Institute
+                  Learning Community
                 </h4>
                 <p className="text-sm text-gray-600 mt-1">
-                  Lacinia asperiores incidunt saepe corrupti quos eros
-                  cupidatat faucibus natus.
+                A chance to connect with a community of learners and teachers for support and guidance
                 </p>
               </div>
             </div>
@@ -64,8 +63,7 @@ const WhyChooseUs: React.FC = () => {
                   Qualified Teachers
                 </h4>
                 <p className="text-sm text-gray-600 mt-1">
-                  Lacinia asperiores incidunt saepe corrupti quos eros
-                  cupidatat faucibus natus.
+                Improved academic performance and understanding of subjects. Increased accessibility and flexibility in learning
                 </p>
               </div>
             </div>
@@ -78,9 +76,7 @@ const WhyChooseUs: React.FC = () => {
             Why Students Choose Us <br /> for Gaining Knowledge !
           </h2>
           <p className="text-gray-600 text-sm md:text-base mb-6">
-            Per sed, mattis. Integer viverra euismod maecenas incidunt, phasellus
-            consequat aliquam nihil temporibus in assumens deserunt convallis.
-            Inceptos per consectetur consequat proin.
+          Affordable and cost-effective with opportunities to learn new skills and expand knowledge in various fields
           </p>
           <Image
             src={emma2}

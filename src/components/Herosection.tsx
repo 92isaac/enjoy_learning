@@ -18,9 +18,7 @@ const HeroSection: React.FC = () => {
           </h1>
 
           <p className="mt-4 text-gray-300 text-sm md:text-base leading-relaxed max-w-lg mx-auto md:mx-0">
-            Per sed, mattis. Integer viverra euismod maecenas incidunt, phasellus
-            consequat aliquam nihil temporibus in assumens deserunt convallis.
-            Inceptos per consectetur consequat proin.
+          To provide high-quality, personalized tutoring services to students of all ages, empowering them to reach their full potential and achieve academic success.
           </p>
 
           <button className="mt-6 px-6 py-3 bg-pink-500 text-white rounded-full font-semibold text-sm hover:bg-pink-600 transition">
